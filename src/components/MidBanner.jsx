@@ -3,7 +3,7 @@ import banner from '../assets/MidBanner.jpg'
 
 const MidBanner = () => {
   return (
-    <div className='bg-gray-200 py-24'>
+    <div className=' bg-red-100 py-24 '>
       <div className='relative max-w-7xl mx-auto md:rounded-2xl pt-28 bg-cover bg-center h-[550px] md:h-[600px] shadow-lg ' style={{backgroundImage: `url(${banner})`, backgroundPosition:'center', backgroundAttachment: 'fixed'}}>
         <div className='absolute inset-0 bg-black md:rounded-2xl bg-opacity-50 flex items-center justify-center'>
             <div className='text-center text-white px-4'>

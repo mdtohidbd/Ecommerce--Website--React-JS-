@@ -2,7 +2,7 @@ import React from 'react'
 
 const MultiBanner = () => {
     return (
-        <div className='bg-gray-100'>
+        <div className=' bg-teal-100 shadow-lg'>
             <div className='grid grid-cols-1 px-4 md:px-0 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 py-6 max-w-7xl mx-auto'>
                 {/* first banner */}
 

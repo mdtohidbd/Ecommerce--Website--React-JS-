@@ -9,7 +9,7 @@ const Item = ({ product }) => {
       <Link to={`/products/${product.id}`}>
         <div
           onClick={window.scrollTo(0, 0)}
-          className="aspect-h-1 aspect-w-1w-full overflow-hidden rounded-md bg-gray-600 lg:aspect-none group-hover:opacity-90 lg:h-80 h-96 shadow-4xl"
+          className="aspect-h-1 aspect-w-1w-full overflow-hidden rounded-md bg-orange-200 lg:aspect-none group-hover:opacity-90 lg:h-80 h-96 shadow-4xl"
         >
           <img
             src={product.image}

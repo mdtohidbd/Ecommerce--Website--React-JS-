@@ -3,7 +3,7 @@ import banner from '../assets/HeroBanner.jpg'
 
 const HeroBanner = () => {
   return (
-    <div className='bg-gray-100 lg:pt-24 pt-16'>
+    <div className=' bg-red-200 lg:pt-24 pt-16'>
       <div className='relative max-w-7xl mx-auto md:rounded-2xl pt-28 bg-cover bg-center h-[550px] md:h-[600px] shadow-2xl ' style={{backgroundImage: `url(${banner})`, backgroundPosition:'Top'}}>
         <div className='absolute inset-0 bg-black md:rounded-2xl bg-opacity-50 flex items-center justify-center'>
             <div className='text-center text-white px-4'>
